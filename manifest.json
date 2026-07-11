@@ -1372,14 +1372,14 @@
       "alpha": 0.5,
       "layout": {
         "left": 1489.0,
-        "top": 838.5,
+        "top": 840.5,
         "width": 68.0,
         "height": 76.0
       },
       "effects": [],
       "sourceAlignment": [
         43.0,
-        17.0
+        19.0
       ],
       "animation": {
         "sourceFrames": 4,
@@ -1642,8 +1642,8 @@
       1920,
       1080
     ],
-    "bytes": 63146,
-    "sha256": "8509b5442617f1f5e3bb6e38918fc9aeaebaf3a840a32b55af307b444fd543f7",
+    "bytes": 63170,
+    "sha256": "a12d37fcfaf6fc62b2f4dfcd8352d6a9a1aacf4bd4179057e5467573fe45c02a",
     "effectsApplied": false
   },
   "limitations": [
