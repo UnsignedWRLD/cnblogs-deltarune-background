@@ -1367,12 +1367,16 @@
       ],
       "alpha": 0.5,
       "layout": {
-        "left": 1446.0,
-        "top": 821.5,
+        "left": 1489.0,
+        "top": 838.5,
         "width": 68.0,
         "height": 76.0
       },
       "effects": [],
+      "sourceAlignment": [
+        43.0,
+        17.0
+      ],
       "animation": {
         "sourceFrames": 4,
         "frames": 4,
@@ -1411,12 +1415,16 @@
       ],
       "alpha": 1.0,
       "layout": {
-        "left": 1436.0,
-        "top": 757.5,
+        "left": 1479.0,
+        "top": 774.5,
         "width": 44.0,
         "height": 80.0
       },
       "effects": [],
+      "sourceAlignment": [
+        43.0,
+        17.0
+      ],
       "animation": {
         "sourceFrames": 4,
         "frames": 4,
@@ -1455,12 +1463,16 @@
       ],
       "alpha": 0.5,
       "layout": {
-        "left": 1552.0,
-        "top": 827.5,
+        "left": 1595.0,
+        "top": 844.5,
         "width": 54.0,
         "height": 70.0
       },
       "effects": [],
+      "sourceAlignment": [
+        43.0,
+        17.0
+      ],
       "animation": {
         "sourceFrames": 4,
         "frames": 4,
@@ -1499,12 +1511,16 @@
       ],
       "alpha": 1.0,
       "layout": {
-        "left": 1544.0,
-        "top": 763.5,
+        "left": 1587.0,
+        "top": 780.5,
         "width": 40.0,
         "height": 74.0
       },
       "effects": [],
+      "sourceAlignment": [
+        43.0,
+        17.0
+      ],
       "animation": {
         "sourceFrames": 4,
         "frames": 4,
@@ -1543,12 +1559,16 @@
       ],
       "alpha": 0.5,
       "layout": {
-        "left": 1500.0,
-        "top": 825.5,
+        "left": 1543.0,
+        "top": 842.5,
         "width": 58.0,
         "height": 72.0
       },
       "effects": [],
+      "sourceAlignment": [
+        43.0,
+        17.0
+      ],
       "animation": {
         "sourceFrames": 4,
         "frames": 4,
@@ -1587,12 +1607,16 @@
       ],
       "alpha": 1.0,
       "layout": {
-        "left": 1484.0,
-        "top": 751.5,
+        "left": 1527.0,
+        "top": 768.5,
         "width": 56.0,
         "height": 86.0
       },
       "effects": [],
+      "sourceAlignment": [
+        43.0,
+        17.0
+      ],
       "animation": {
         "sourceFrames": 4,
         "frames": 4,
@@ -1614,8 +1638,8 @@
       1920,
       1080
     ],
-    "bytes": 62948,
-    "sha256": "6ebd11a6fa880b275881f403180e73dd0eae3537add445164de72095521f6dfb",
+    "bytes": 63076,
+    "sha256": "004ecde0039277ea59d09eae89ee4c772f5fa573330bd4b54076f776de560826",
     "effectsApplied": false
   },
   "limitations": [
