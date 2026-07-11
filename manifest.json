@@ -1306,11 +1306,15 @@
       "alpha": 1.0,
       "layout": {
         "left": 1415.1451,
-        "top": 830.0,
+        "top": 819.0,
         "width": 824.0,
         "height": 582.0
       },
-      "effects": []
+      "effects": [],
+      "sourceAlignment": [
+        0.0,
+        -11.0
+      ]
     },
     {
       "drawIndex": 21,
@@ -1638,8 +1642,8 @@
       1920,
       1080
     ],
-    "bytes": 63076,
-    "sha256": "004ecde0039277ea59d09eae89ee4c772f5fa573330bd4b54076f776de560826",
+    "bytes": 63146,
+    "sha256": "8509b5442617f1f5e3bb6e38918fc9aeaebaf3a840a32b55af307b444fd543f7",
     "effectsApplied": false
   },
   "limitations": [
