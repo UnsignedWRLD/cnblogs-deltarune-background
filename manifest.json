@@ -1,0 +1,1470 @@
+{
+  "formatVersion": 1,
+  "canvas": [
+    1920,
+    1080
+  ],
+  "source": {
+    "package": "scene.pkg",
+    "packageSha256": "72fbeb2a3c41a934497034dbc96e9fcf10efc605697e5ed70b50e2c6131ee1f3",
+    "scene": "scene.json",
+    "repkg": "0.4.0+e69a76dcdb461f5bdeba01a8a7fa5131a09bcefe"
+  },
+  "assets": {
+    "absbg": {
+      "file": "layers/base-sky.webp",
+      "sourceFile": "extracted/materials/absbg.png",
+      "sourceSize": [
+        2560,
+        1720
+      ],
+      "crop": [
+        0,
+        0,
+        2560,
+        1720
+      ],
+      "outputSize": [
+        2560,
+        1720
+      ],
+      "opaquePixels": 4403200,
+      "partialAlphaPixels": 0,
+      "bytes": 228,
+      "sha256": "fc9f3266ae698d4cfa333ec901d3c1c84ac82306f2603af278b46688ff6eef4d"
+    },
+    "c0": {
+      "file": "layers/cloud-c0.webp",
+      "sourceFile": "extracted/materials/c0.png",
+      "sourceSize": [
+        2560,
+        640
+      ],
+      "crop": [
+        0,
+        0,
+        2560,
+        590
+      ],
+      "outputSize": [
+        2560,
+        590
+      ],
+      "opaquePixels": 1390552,
+      "partialAlphaPixels": 0,
+      "bytes": 4626,
+      "sha256": "1477a6101f16aa11ed97734969fccb4e7ef6a7998089c402b2d6a846514fdd7b"
+    },
+    "c1": {
+      "file": "layers/cloud-c1.webp",
+      "sourceFile": "extracted/materials/c1.png",
+      "sourceSize": [
+        2560,
+        238
+      ],
+      "crop": [
+        0,
+        50,
+        2560,
+        188
+      ],
+      "outputSize": [
+        2560,
+        138
+      ],
+      "opaquePixels": 73628,
+      "partialAlphaPixels": 0,
+      "bytes": 3126,
+      "sha256": "0e6edef4226d6643b7518549e661cf279661731c9c03f75589b4c69721812654"
+    },
+    "c2": {
+      "file": "layers/cloud-c2.webp",
+      "sourceFile": "extracted/materials/c2.png",
+      "sourceSize": [
+        2560,
+        296
+      ],
+      "crop": [
+        0,
+        50,
+        2560,
+        246
+      ],
+      "outputSize": [
+        2560,
+        196
+      ],
+      "opaquePixels": 373128,
+      "partialAlphaPixels": 0,
+      "bytes": 5532,
+      "sha256": "a3fb4f2f0e2f3d1e6f967c5c40f62adab6df656864e103525c498006ed9ca34e"
+    },
+    "c3": {
+      "file": "layers/cloud-c3.webp",
+      "sourceFile": "extracted/materials/c3.png",
+      "sourceSize": [
+        2560,
+        296
+      ],
+      "crop": [
+        0,
+        50,
+        2560,
+        246
+      ],
+      "outputSize": [
+        2560,
+        196
+      ],
+      "opaquePixels": 299652,
+      "partialAlphaPixels": 0,
+      "bytes": 2512,
+      "sha256": "b451d5865758e37ee8862cc362d8ae84c4a717b307c29d4b6ecc03664cdda58a"
+    },
+    "c4": {
+      "file": "layers/cloud-c4.webp",
+      "sourceFile": "extracted/materials/c4.png",
+      "sourceSize": [
+        2560,
+        238
+      ],
+      "crop": [
+        0,
+        50,
+        2560,
+        188
+      ],
+      "outputSize": [
+        2560,
+        138
+      ],
+      "opaquePixels": 73564,
+      "partialAlphaPixels": 0,
+      "bytes": 3000,
+      "sha256": "a73dd71ad557af974263e33336e08fee536d18e94c32a34b485883164882afec"
+    },
+    "c5": {
+      "file": "layers/cloud-c5.webp",
+      "sourceFile": "extracted/materials/c5.png",
+      "sourceSize": [
+        2560,
+        238
+      ],
+      "crop": [
+        0,
+        50,
+        2560,
+        188
+      ],
+      "outputSize": [
+        2560,
+        138
+      ],
+      "opaquePixels": 72638,
+      "partialAlphaPixels": 0,
+      "bytes": 2734,
+      "sha256": "394bcfe90e4dda1f5030fd54ef322121055a15a1813e1cca29adc56b09327143"
+    },
+    "sun": {
+      "file": "layers/sun.webp",
+      "sourceFile": "extracted/materials/sun.png",
+      "sourceSize": [
+        262,
+        250
+      ],
+      "crop": [
+        50,
+        50,
+        212,
+        200
+      ],
+      "outputSize": [
+        162,
+        150
+      ],
+      "opaquePixels": 19692,
+      "partialAlphaPixels": 0,
+      "bytes": 306,
+      "sha256": "f3b6583a81962d76161fdbe84886c9d1201aabf5ddb4beddbc60be90d12958fb"
+    },
+    "cliffs": {
+      "file": "layers/distant-cliffs.webp",
+      "sourceFile": "extracted/materials/cliffs.png",
+      "sourceSize": [
+        2560,
+        262
+      ],
+      "crop": [
+        0,
+        50,
+        2560,
+        212
+      ],
+      "outputSize": [
+        2560,
+        162
+      ],
+      "opaquePixels": 224644,
+      "partialAlphaPixels": 0,
+      "bytes": 4394,
+      "sha256": "1657030a90d7f34386aa2a886ee92d02d6ad380ef609a4c934c0f33f0099623e"
+    },
+    "lightest(7)": {
+      "file": "layers/sky-light.webp",
+      "sourceFile": "extracted/materials/lightest(7).png",
+      "sourceSize": [
+        2560,
+        394
+      ],
+      "crop": [
+        0,
+        50,
+        2560,
+        344
+      ],
+      "outputSize": [
+        2560,
+        294
+      ],
+      "opaquePixels": 752448,
+      "partialAlphaPixels": 0,
+      "bytes": 3596,
+      "sha256": "d24fcc7e2af3e31ddce83c58188afb72d873f596ff96d6602e772109ad09dfff"
+    },
+    "2": {
+      "file": "layers/sky-band-2.webp",
+      "sourceFile": "extracted/materials/2.png",
+      "sourceSize": [
+        2560,
+        396
+      ],
+      "crop": [
+        0,
+        50,
+        2560,
+        346
+      ],
+      "outputSize": [
+        2560,
+        296
+      ],
+      "opaquePixels": 745712,
+      "partialAlphaPixels": 0,
+      "bytes": 11252,
+      "sha256": "0ce1983e0a9f04a4f8761309fd6173dad9817301871188dc0d306c7d30880558"
+    },
+    "3": {
+      "file": "layers/sky-band-3.webp",
+      "sourceFile": "extracted/materials/3.png",
+      "sourceSize": [
+        2560,
+        396
+      ],
+      "crop": [
+        0,
+        50,
+        2560,
+        346
+      ],
+      "outputSize": [
+        2560,
+        296
+      ],
+      "opaquePixels": 745888,
+      "partialAlphaPixels": 0,
+      "bytes": 7228,
+      "sha256": "ba5ea29e1641acd9d109916b046beedd3bcea80d820c46bdc207042717bc915c"
+    },
+    "4": {
+      "file": "layers/sky-band-4.webp",
+      "sourceFile": "extracted/materials/4.png",
+      "sourceSize": [
+        2560,
+        394
+      ],
+      "crop": [
+        0,
+        50,
+        2560,
+        344
+      ],
+      "outputSize": [
+        2560,
+        294
+      ],
+      "opaquePixels": 741776,
+      "partialAlphaPixels": 0,
+      "bytes": 10592,
+      "sha256": "feddc174903c8165ebd5b0f293867319c7b4987f456584b8f85db1124d7964f8"
+    },
+    "5": {
+      "file": "layers/sky-band-5.webp",
+      "sourceFile": "extracted/materials/5.png",
+      "sourceSize": [
+        2560,
+        396
+      ],
+      "crop": [
+        0,
+        50,
+        2560,
+        346
+      ],
+      "outputSize": [
+        2560,
+        296
+      ],
+      "opaquePixels": 745776,
+      "partialAlphaPixels": 0,
+      "bytes": 10862,
+      "sha256": "79f824cef8778699426e5ad2506c91b2dd5526fa37a61549b4819ecbedb653ee"
+    },
+    "6": {
+      "file": "layers/sky-band-6.webp",
+      "sourceFile": "extracted/materials/6.png",
+      "sourceSize": [
+        2560,
+        396
+      ],
+      "crop": [
+        0,
+        50,
+        2560,
+        346
+      ],
+      "outputSize": [
+        2560,
+        296
+      ],
+      "opaquePixels": 748080,
+      "partialAlphaPixels": 0,
+      "bytes": 7570,
+      "sha256": "95e8f16208a6ab40fa73dd91ba56ccc17c8f3566fe2d0a5360d34a8657bcfb46"
+    },
+    "darkestflow(1)": {
+      "file": "layers/sky-deep.webp",
+      "sourceFile": "extracted/materials/darkestflow(1).png",
+      "sourceSize": [
+        2560,
+        610
+      ],
+      "crop": [
+        0,
+        50,
+        2560,
+        610
+      ],
+      "outputSize": [
+        2560,
+        560
+      ],
+      "opaquePixels": 1421752,
+      "partialAlphaPixels": 0,
+      "bytes": 11276,
+      "sha256": "5923971e120b3f59a6d7fd8560c9bd28a14e517bd730db4d3be0eb770cf5453b"
+    },
+    "mount": {
+      "file": "layers/right-cliff.webp",
+      "sourceFile": "extracted/materials/mount.png",
+      "sourceSize": [
+        874,
+        632
+      ],
+      "crop": [
+        50,
+        50,
+        874,
+        632
+      ],
+      "outputSize": [
+        824,
+        582
+      ],
+      "opaquePixels": 451340,
+      "partialAlphaPixels": 64,
+      "bytes": 16490,
+      "sha256": "6b7c791e121cff3cfb390668bcce8a0d9e3cee218a95b4451e7b9256f03ee0f7"
+    },
+    "newfloor": {
+      "file": "layers/right-cliff-edge.webp",
+      "sourceFile": "extracted/materials/newfloor.png",
+      "sourceSize": [
+        874,
+        190
+      ],
+      "crop": [
+        50,
+        50,
+        874,
+        140
+      ],
+      "outputSize": [
+        824,
+        90
+      ],
+      "opaquePixels": 73892,
+      "partialAlphaPixels": 0,
+      "bytes": 1120,
+      "sha256": "5aed7b4c129be1dc4bbfa881cba79736c0ff388c07c833e7f9e4e40b85b1aaa5"
+    },
+    "raly": {
+      "file": "layers/ralsei.webp",
+      "sourceFile": "extracted/materials/raly.png",
+      "sourceSize": [
+        2560,
+        1720
+      ],
+      "crop": [
+        1756,
+        1094,
+        1796,
+        1174
+      ],
+      "outputSize": [
+        40,
+        80
+      ],
+      "opaquePixels": 2564,
+      "partialAlphaPixels": 0,
+      "bytes": 864,
+      "sha256": "5b1f9664945d38625251ac89ce6aad076813449a2474c111e6f3f2a7b6f442f6"
+    },
+    "ralySH": {
+      "file": "layers/ralsei-shadow.webp",
+      "sourceFile": "extracted/materials/ralySH.png",
+      "sourceSize": [
+        2560,
+        1720
+      ],
+      "crop": [
+        1766,
+        1158,
+        1834,
+        1234
+      ],
+      "outputSize": [
+        68,
+        76
+      ],
+      "opaquePixels": 2288,
+      "partialAlphaPixels": 0,
+      "bytes": 116,
+      "sha256": "6ca71fc009424db040c77af0d76fcc1ef16efef06dfcd2eb53e6dc186a9790b1"
+    },
+    "kris": {
+      "file": "layers/kris.webp",
+      "sourceFile": "extracted/materials/kris.png",
+      "sourceSize": [
+        2560,
+        1720
+      ],
+      "crop": [
+        1864,
+        1100,
+        1904,
+        1174
+      ],
+      "outputSize": [
+        40,
+        74
+      ],
+      "opaquePixels": 2176,
+      "partialAlphaPixels": 0,
+      "bytes": 560,
+      "sha256": "ff3c3d789f4a573463b9ca4bc50cd792fd372f9ab538d9e00ea437cc97b6e4ee"
+    },
+    "krisSH": {
+      "file": "layers/kris-shadow.webp",
+      "sourceFile": "extracted/materials/krisSH.png",
+      "sourceSize": [
+        2560,
+        1720
+      ],
+      "crop": [
+        1872,
+        1164,
+        1926,
+        1234
+      ],
+      "outputSize": [
+        54,
+        70
+      ],
+      "opaquePixels": 1928,
+      "partialAlphaPixels": 0,
+      "bytes": 102,
+      "sha256": "7159b08e2218395d244a47f217b63f49ed344e9ef489e6221063babd92e6e300"
+    },
+    "susie": {
+      "file": "layers/susie.webp",
+      "sourceFile": "extracted/materials/susie.png",
+      "sourceSize": [
+        2560,
+        1720
+      ],
+      "crop": [
+        1804,
+        1088,
+        1860,
+        1174
+      ],
+      "outputSize": [
+        56,
+        86
+      ],
+      "opaquePixels": 3200,
+      "partialAlphaPixels": 0,
+      "bytes": 804,
+      "sha256": "b9cc50dfe7aa6f44b0e2a235d9e78675ee9ec099cd6a3dd94faa75228673b350"
+    },
+    "susieSH": {
+      "file": "layers/susie-shadow.webp",
+      "sourceFile": "extracted/materials/susieSH.png",
+      "sourceSize": [
+        2560,
+        1720
+      ],
+      "crop": [
+        1820,
+        1162,
+        1878,
+        1234
+      ],
+      "outputSize": [
+        58,
+        72
+      ],
+      "opaquePixels": 1940,
+      "partialAlphaPixels": 0,
+      "bytes": 102,
+      "sha256": "3aa1ddccdffbe582614660625fa422dbf66daa506055c5e30e679566e0d02828"
+    }
+  },
+  "layers": [
+    {
+      "drawIndex": 0,
+      "id": 17,
+      "name": "absbg",
+      "asset": "absbg",
+      "file": "layers/base-sky.webp",
+      "origin": [
+        960.0,
+        540.0
+      ],
+      "size": [
+        2560.0,
+        1720.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "parallax": [
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layout": {
+        "left": -320.0,
+        "top": -320.0,
+        "width": 2560.0,
+        "height": 1720.0
+      },
+      "effects": []
+    },
+    {
+      "drawIndex": 1,
+      "id": 173,
+      "name": "c2",
+      "asset": "c2",
+      "file": "layers/cloud-c2.webp",
+      "origin": [
+        952.87823,
+        891.18695
+      ],
+      "size": [
+        2560.0,
+        296.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "parallax": [
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layout": {
+        "left": -327.1218,
+        "top": 90.813,
+        "width": 2560.0,
+        "height": 196.0
+      },
+      "effects": []
+    },
+    {
+      "drawIndex": 2,
+      "id": 155,
+      "name": "c5",
+      "asset": "c5",
+      "file": "layers/cloud-c5.webp",
+      "origin": [
+        960.0,
+        659.0
+      ],
+      "size": [
+        2560.0,
+        238.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "parallax": [
+        0.1,
+        0.1
+      ],
+      "alpha": 1.0,
+      "layout": {
+        "left": -320.0,
+        "top": 352.0,
+        "width": 2560.0,
+        "height": 138.0
+      },
+      "effects": [
+        {
+          "file": "effects/scroll/effect.json",
+          "passes": [
+            {
+              "repeat": "1 1",
+              "speedx": 0.1,
+              "speedy": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "drawIndex": 3,
+      "id": 151,
+      "name": "c4",
+      "asset": "c4",
+      "file": "layers/cloud-c4.webp",
+      "origin": [
+        960.0,
+        555.0
+      ],
+      "size": [
+        2560.0,
+        238.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "parallax": [
+        0.14,
+        0.14
+      ],
+      "alpha": 1.0,
+      "layout": {
+        "left": -320.0,
+        "top": 456.0,
+        "width": 2560.0,
+        "height": 138.0
+      },
+      "effects": [
+        {
+          "file": "effects/scroll/effect.json",
+          "passes": [
+            {
+              "repeat": "1 1",
+              "speedx": 0.12,
+              "speedy": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "drawIndex": 4,
+      "id": 154,
+      "name": "c3",
+      "asset": "c3",
+      "file": "layers/cloud-c3.webp",
+      "origin": [
+        960.0,
+        744.0
+      ],
+      "size": [
+        2560.0,
+        296.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "parallax": [
+        0.14,
+        0.14
+      ],
+      "alpha": 1.0,
+      "layout": {
+        "left": -320.0,
+        "top": 238.0,
+        "width": 2560.0,
+        "height": 196.0
+      },
+      "effects": [
+        {
+          "file": "effects/scroll/effect.json",
+          "passes": [
+            {
+              "repeat": "1 1",
+              "speedx": 0.14,
+              "speedy": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "drawIndex": 5,
+      "id": 153,
+      "name": "c2",
+      "asset": "c2",
+      "file": "layers/cloud-c2.webp",
+      "origin": [
+        960.0,
+        810.0
+      ],
+      "size": [
+        2560.0,
+        296.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "parallax": [
+        0.16,
+        0.16
+      ],
+      "alpha": 1.0,
+      "layout": {
+        "left": -320.0,
+        "top": 172.0,
+        "width": 2560.0,
+        "height": 196.0
+      },
+      "effects": [
+        {
+          "file": "effects/scroll/effect.json",
+          "passes": [
+            {
+              "repeat": "1 1",
+              "speedx": 0.16,
+              "speedy": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "drawIndex": 6,
+      "id": 152,
+      "name": "c1",
+      "asset": "c1",
+      "file": "layers/cloud-c1.webp",
+      "origin": [
+        960.0,
+        647.0
+      ],
+      "size": [
+        2560.0,
+        238.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "parallax": [
+        0.16,
+        0.16
+      ],
+      "alpha": 1.0,
+      "layout": {
+        "left": -320.0,
+        "top": 364.0,
+        "width": 2560.0,
+        "height": 138.0
+      },
+      "effects": [
+        {
+          "file": "effects/scroll/effect.json",
+          "passes": [
+            {
+              "repeat": "1 1",
+              "speedx": 0.18,
+              "speedy": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "drawIndex": 7,
+      "id": 150,
+      "name": "c0",
+      "asset": "c0",
+      "file": "layers/cloud-c0.webp",
+      "origin": [
+        960.0,
+        1080.0
+      ],
+      "size": [
+        2560.0,
+        640.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "parallax": [
+        0.18,
+        0.18
+      ],
+      "alpha": 1.0,
+      "layout": {
+        "left": -320.0,
+        "top": -320.0,
+        "width": 2560.0,
+        "height": 590.0
+      },
+      "effects": [
+        {
+          "file": "effects/transform/effect.json",
+          "passes": [
+            {
+              "angle": 0,
+              "offset": "0 0",
+              "scale": "1 1"
+            }
+          ]
+        },
+        {
+          "file": "effects/scroll/effect.json",
+          "passes": [
+            {
+              "repeat": "1 1",
+              "speedx": 0.2,
+              "speedy": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "drawIndex": 10,
+      "id": 170,
+      "name": "sun",
+      "asset": "sun",
+      "file": "layers/sun.webp",
+      "origin": [
+        960.0,
+        540.0
+      ],
+      "size": [
+        262.0,
+        250.0
+      ],
+      "scale": [
+        1.2,
+        1.2
+      ],
+      "parallax": [
+        0.0,
+        0.0
+      ],
+      "alpha": 0.13,
+      "layout": {
+        "left": 862.8,
+        "top": 450.0,
+        "width": 194.4,
+        "height": 180.0
+      },
+      "effects": [
+        {
+          "file": "effects/waterripple/effect.json",
+          "passes": [
+            {
+              "animationspeed": 0.27,
+              "ratio": 0.5,
+              "ripplestrength": 0.13,
+              "scale": 2.08,
+              "scrolldirection": 0.0,
+              "scrollspeed": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "drawIndex": 11,
+      "id": 108,
+      "name": "sun",
+      "asset": "sun",
+      "file": "layers/sun.webp",
+      "origin": [
+        960.0,
+        539.99994
+      ],
+      "size": [
+        262.0,
+        250.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "parallax": [
+        0.02,
+        0.02
+      ],
+      "alpha": 1.0,
+      "layout": {
+        "left": 879.0,
+        "top": 465.0001,
+        "width": 162.0,
+        "height": 150.0
+      },
+      "effects": [
+        {
+          "file": "effects/waterripple/effect.json",
+          "passes": [
+            {
+              "animationspeed": 0.1,
+              "ratio": 1.0,
+              "ripplestrength": 0.1,
+              "scale": 0.5,
+              "scrolldirection": 0.0,
+              "scrollspeed": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "drawIndex": 12,
+      "id": 109,
+      "name": "cliffs",
+      "asset": "cliffs",
+      "file": "layers/distant-cliffs.webp",
+      "origin": [
+        960.0,
+        540.0
+      ],
+      "size": [
+        2560.0,
+        262.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "parallax": [
+        0.03,
+        0.03
+      ],
+      "alpha": 1.0,
+      "layout": {
+        "left": -320.0,
+        "top": 459.0,
+        "width": 2560.0,
+        "height": 162.0
+      },
+      "effects": []
+    },
+    {
+      "drawIndex": 13,
+      "id": 28,
+      "name": "lightest(7)",
+      "asset": "lightest(7)",
+      "file": "layers/sky-light.webp",
+      "origin": [
+        960.0,
+        355.0
+      ],
+      "size": [
+        2560.0,
+        394.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "parallax": [
+        0.08,
+        0.08
+      ],
+      "alpha": 1.0,
+      "layout": {
+        "left": -320.0,
+        "top": 578.0,
+        "width": 2560.0,
+        "height": 294.0
+      },
+      "effects": []
+    },
+    {
+      "drawIndex": 14,
+      "id": 31,
+      "name": "6",
+      "asset": "6",
+      "file": "layers/sky-band-6.webp",
+      "origin": [
+        960.0,
+        332.0
+      ],
+      "size": [
+        2560.0,
+        396.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "parallax": [
+        0.17,
+        0.17
+      ],
+      "alpha": 1.0,
+      "layout": {
+        "left": -320.0,
+        "top": 600.0,
+        "width": 2560.0,
+        "height": 296.0
+      },
+      "effects": []
+    },
+    {
+      "drawIndex": 15,
+      "id": 34,
+      "name": "5",
+      "asset": "5",
+      "file": "layers/sky-band-5.webp",
+      "origin": [
+        960.0,
+        302.0
+      ],
+      "size": [
+        2560.0,
+        396.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "parallax": [
+        0.2,
+        0.2
+      ],
+      "alpha": 1.0,
+      "layout": {
+        "left": -320.0,
+        "top": 630.0,
+        "width": 2560.0,
+        "height": 296.0
+      },
+      "effects": []
+    },
+    {
+      "drawIndex": 16,
+      "id": 37,
+      "name": "4",
+      "asset": "4",
+      "file": "layers/sky-band-4.webp",
+      "origin": [
+        960.0,
+        269.0
+      ],
+      "size": [
+        2560.0,
+        394.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "parallax": [
+        0.24,
+        0.24
+      ],
+      "alpha": 1.0,
+      "layout": {
+        "left": -320.0,
+        "top": 664.0,
+        "width": 2560.0,
+        "height": 294.0
+      },
+      "effects": []
+    },
+    {
+      "drawIndex": 17,
+      "id": 40,
+      "name": "3",
+      "asset": "3",
+      "file": "layers/sky-band-3.webp",
+      "origin": [
+        960.0,
+        220.0
+      ],
+      "size": [
+        2560.0,
+        396.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "parallax": [
+        0.27,
+        0.27
+      ],
+      "alpha": 1.0,
+      "layout": {
+        "left": -320.0,
+        "top": 712.0,
+        "width": 2560.0,
+        "height": 296.0
+      },
+      "effects": []
+    },
+    {
+      "drawIndex": 18,
+      "id": 43,
+      "name": "2",
+      "asset": "2",
+      "file": "layers/sky-band-2.webp",
+      "origin": [
+        960.0,
+        168.0
+      ],
+      "size": [
+        2560.0,
+        396.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "parallax": [
+        0.29,
+        0.29
+      ],
+      "alpha": 1.0,
+      "layout": {
+        "left": -320.0,
+        "top": 764.0,
+        "width": 2560.0,
+        "height": 296.0
+      },
+      "effects": []
+    },
+    {
+      "drawIndex": 19,
+      "id": 46,
+      "name": "darkestflow(1)",
+      "asset": "darkestflow(1)",
+      "file": "layers/sky-deep.webp",
+      "origin": [
+        960.0,
+        -15.0
+      ],
+      "size": [
+        2560.0,
+        610.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "parallax": [
+        0.3,
+        0.3
+      ],
+      "alpha": 1.0,
+      "layout": {
+        "left": -320.0,
+        "top": 840.0,
+        "width": 2560.0,
+        "height": 560.0
+      },
+      "effects": []
+    },
+    {
+      "drawIndex": 20,
+      "id": 156,
+      "name": "mount",
+      "asset": "mount",
+      "file": "layers/right-cliff.webp",
+      "origin": [
+        1802.14514,
+        -16.0
+      ],
+      "size": [
+        874.0,
+        632.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "parallax": [
+        -0.1,
+        -0.1
+      ],
+      "alpha": 1.0,
+      "layout": {
+        "left": 1415.1451,
+        "top": 830.0,
+        "width": 824.0,
+        "height": 582.0
+      },
+      "effects": []
+    },
+    {
+      "drawIndex": 21,
+      "id": 83,
+      "name": "newfloor",
+      "asset": "newfloor",
+      "file": "layers/right-cliff-edge.webp",
+      "origin": [
+        1803.0,
+        208.0
+      ],
+      "size": [
+        874.0,
+        190.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "parallax": [
+        -0.1,
+        -0.1
+      ],
+      "alpha": 1.0,
+      "layout": {
+        "left": 1416.0,
+        "top": 827.0,
+        "width": 824.0,
+        "height": 90.0
+      },
+      "effects": []
+    },
+    {
+      "drawIndex": 22,
+      "id": 86,
+      "name": "ralySH",
+      "asset": "ralySH",
+      "file": "layers/ralsei-shadow.webp",
+      "origin": [
+        960.0,
+        556.5
+      ],
+      "size": [
+        2560.0,
+        1720.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "parallax": [
+        -0.1,
+        -0.1
+      ],
+      "alpha": 0.5,
+      "layout": {
+        "left": 1446.0,
+        "top": 821.5,
+        "width": 68.0,
+        "height": 76.0
+      },
+      "effects": []
+    },
+    {
+      "drawIndex": 23,
+      "id": 89,
+      "name": "raly",
+      "asset": "raly",
+      "file": "layers/ralsei.webp",
+      "origin": [
+        960.0,
+        556.5
+      ],
+      "size": [
+        2560.0,
+        1720.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "parallax": [
+        -0.1,
+        -0.1
+      ],
+      "alpha": 1.0,
+      "layout": {
+        "left": 1436.0,
+        "top": 757.5,
+        "width": 40.0,
+        "height": 80.0
+      },
+      "effects": []
+    },
+    {
+      "drawIndex": 24,
+      "id": 92,
+      "name": "krisSH",
+      "asset": "krisSH",
+      "file": "layers/kris-shadow.webp",
+      "origin": [
+        960.0,
+        556.5
+      ],
+      "size": [
+        2560.0,
+        1720.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "parallax": [
+        -0.1,
+        -0.1
+      ],
+      "alpha": 0.5,
+      "layout": {
+        "left": 1552.0,
+        "top": 827.5,
+        "width": 54.0,
+        "height": 70.0
+      },
+      "effects": []
+    },
+    {
+      "drawIndex": 25,
+      "id": 95,
+      "name": "kris",
+      "asset": "kris",
+      "file": "layers/kris.webp",
+      "origin": [
+        960.0,
+        556.5
+      ],
+      "size": [
+        2560.0,
+        1720.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "parallax": [
+        -0.1,
+        -0.1
+      ],
+      "alpha": 1.0,
+      "layout": {
+        "left": 1544.0,
+        "top": 763.5,
+        "width": 40.0,
+        "height": 74.0
+      },
+      "effects": []
+    },
+    {
+      "drawIndex": 26,
+      "id": 98,
+      "name": "susieSH",
+      "asset": "susieSH",
+      "file": "layers/susie-shadow.webp",
+      "origin": [
+        960.0,
+        556.5
+      ],
+      "size": [
+        2560.0,
+        1720.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "parallax": [
+        -0.1,
+        -0.1
+      ],
+      "alpha": 0.5,
+      "layout": {
+        "left": 1500.0,
+        "top": 825.5,
+        "width": 58.0,
+        "height": 72.0
+      },
+      "effects": []
+    },
+    {
+      "drawIndex": 27,
+      "id": 101,
+      "name": "susie",
+      "asset": "susie",
+      "file": "layers/susie.webp",
+      "origin": [
+        960.0,
+        556.5
+      ],
+      "size": [
+        2560.0,
+        1720.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "parallax": [
+        -0.1,
+        -0.1
+      ],
+      "alpha": 1.0,
+      "layout": {
+        "left": 1484.0,
+        "top": 751.5,
+        "width": 56.0,
+        "height": 86.0
+      },
+      "effects": []
+    }
+  ],
+  "fallback": {
+    "file": "fallback.webp",
+    "size": [
+      1920,
+      1080
+    ],
+    "bytes": 60564,
+    "sha256": "c0891ca5b7beae15f4a357fb7a91ddb2ce567b5d347618a4302c21a00a397f5f",
+    "effectsApplied": false
+  },
+  "limitations": [
+    "Wallpaper Engine shaders are not baked into the static fallback.",
+    "Scroll, water ripple, bloom, and mouse parallax must be recreated in the browser.",
+    "Audio, date, clock, media widgets, and hidden Flowey are intentionally excluded."
+  ]
+}
