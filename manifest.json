@@ -426,8 +426,8 @@
       ],
       "opaquePixels": 2632,
       "partialAlphaPixels": 0,
-      "bytes": 2180,
-      "sha256": "be8723c9002fc28b356472ad0dd69fa3b5adb93b6fd1f3729c0a0d837e266785",
+      "bytes": 2212,
+      "sha256": "3fad289f431e921575a102bd0e70d8cf102419728d795a9417e078be9622cb23",
       "animation": {
         "sourceFrames": 4,
         "frames": 4,
@@ -439,7 +439,12 @@
         ],
         "durationMs": 800,
         "loop": true,
-        "layout": "horizontal-sprite-sheet"
+        "layout": "horizontal-sprite-sheet",
+        "frameGutterPx": 2,
+        "frameSize": [
+          48,
+          80
+        ]
       }
     },
     "ralySH": {
@@ -461,8 +466,8 @@
       ],
       "opaquePixels": 2348,
       "partialAlphaPixels": 0,
-      "bytes": 220,
-      "sha256": "7e36fe03f6bf4dc62c71564facdcbe40856ec061c2140f64b2076dbbc4c40c73",
+      "bytes": 186,
+      "sha256": "5ef1cb699bfd8d284df476b6fa31444c90888816d700a478285d0ea1c39c2b0a",
       "animation": {
         "sourceFrames": 4,
         "frames": 4,
@@ -474,7 +479,12 @@
         ],
         "durationMs": 800,
         "loop": true,
-        "layout": "horizontal-sprite-sheet"
+        "layout": "horizontal-sprite-sheet",
+        "frameGutterPx": 2,
+        "frameSize": [
+          72,
+          76
+        ]
       }
     },
     "kris": {
@@ -496,8 +506,8 @@
       ],
       "opaquePixels": 2248,
       "partialAlphaPixels": 0,
-      "bytes": 1440,
-      "sha256": "ff6c565406c811b1999a90485aa182075ab2b7d5b90dcab454626b62bce2ba75",
+      "bytes": 1454,
+      "sha256": "7856bfa9fa28b9591350c3769525be74bf8e47586f5866a8018efdafb58fdf4a",
       "animation": {
         "sourceFrames": 4,
         "frames": 4,
@@ -509,7 +519,12 @@
         ],
         "durationMs": 800,
         "loop": true,
-        "layout": "horizontal-sprite-sheet"
+        "layout": "horizontal-sprite-sheet",
+        "frameGutterPx": 2,
+        "frameSize": [
+          44,
+          74
+        ]
       }
     },
     "krisSH": {
@@ -531,8 +546,8 @@
       ],
       "opaquePixels": 1972,
       "partialAlphaPixels": 0,
-      "bytes": 246,
-      "sha256": "3e377c288eb6a7693ff588684a7234230c607e5dfb55e5001be91fe5d6800452",
+      "bytes": 252,
+      "sha256": "5071bb77058c63cef0a37432ff82d3dd8302c51a220ea0752d5917fc00c3c826",
       "animation": {
         "sourceFrames": 4,
         "frames": 4,
@@ -544,7 +559,12 @@
         ],
         "durationMs": 800,
         "loop": true,
-        "layout": "horizontal-sprite-sheet"
+        "layout": "horizontal-sprite-sheet",
+        "frameGutterPx": 2,
+        "frameSize": [
+          58,
+          70
+        ]
       }
     },
     "susie": {
@@ -566,8 +586,8 @@
       ],
       "opaquePixels": 3296,
       "partialAlphaPixels": 0,
-      "bytes": 2302,
-      "sha256": "6f9c16a44232b9cb553a6d3ae0b717cb9553a5c9cc8774cf598718f3106735f1",
+      "bytes": 2318,
+      "sha256": "7c3c1927ab884b6ab76defb741ea47829713fc5a946788e5a86bcde173ede689",
       "animation": {
         "sourceFrames": 4,
         "frames": 4,
@@ -579,7 +599,12 @@
         ],
         "durationMs": 800,
         "loop": true,
-        "layout": "horizontal-sprite-sheet"
+        "layout": "horizontal-sprite-sheet",
+        "frameGutterPx": 2,
+        "frameSize": [
+          60,
+          86
+        ]
       }
     },
     "susieSH": {
@@ -601,8 +626,8 @@
       ],
       "opaquePixels": 1952,
       "partialAlphaPixels": 0,
-      "bytes": 202,
-      "sha256": "098d35fbdee56fa9ee0458869deae3432c42edbb364cacf96d7bb96dbabf84ee",
+      "bytes": 206,
+      "sha256": "9c970389c40aff33557fe651c31b782138869554914d5498fa7cf4b0dca04e31",
       "animation": {
         "sourceFrames": 4,
         "frames": 4,
@@ -614,7 +639,12 @@
         ],
         "durationMs": 800,
         "loop": true,
-        "layout": "horizontal-sprite-sheet"
+        "layout": "horizontal-sprite-sheet",
+        "frameGutterPx": 2,
+        "frameSize": [
+          62,
+          72
+        ]
       }
     }
   },
@@ -1371,9 +1401,9 @@
       ],
       "alpha": 0.5,
       "layout": {
-        "left": 1489.0,
+        "left": 1487.0,
         "top": 840.5,
-        "width": 68.0,
+        "width": 72.0,
         "height": 76.0
       },
       "effects": [],
@@ -1392,7 +1422,12 @@
         ],
         "durationMs": 800,
         "loop": true,
-        "layout": "horizontal-sprite-sheet"
+        "layout": "horizontal-sprite-sheet",
+        "frameGutterPx": 2,
+        "frameSize": [
+          72,
+          76
+        ]
       }
     },
     {
@@ -1419,9 +1454,9 @@
       ],
       "alpha": 1.0,
       "layout": {
-        "left": 1479.0,
+        "left": 1477.0,
         "top": 774.5,
-        "width": 44.0,
+        "width": 48.0,
         "height": 80.0
       },
       "effects": [],
@@ -1440,7 +1475,12 @@
         ],
         "durationMs": 800,
         "loop": true,
-        "layout": "horizontal-sprite-sheet"
+        "layout": "horizontal-sprite-sheet",
+        "frameGutterPx": 2,
+        "frameSize": [
+          48,
+          80
+        ]
       }
     },
     {
@@ -1467,15 +1507,15 @@
       ],
       "alpha": 0.5,
       "layout": {
-        "left": 1595.0,
-        "top": 844.5,
-        "width": 54.0,
+        "left": 1593.0,
+        "top": 846.5,
+        "width": 58.0,
         "height": 70.0
       },
       "effects": [],
       "sourceAlignment": [
         43.0,
-        17.0
+        19.0
       ],
       "animation": {
         "sourceFrames": 4,
@@ -1488,7 +1528,12 @@
         ],
         "durationMs": 800,
         "loop": true,
-        "layout": "horizontal-sprite-sheet"
+        "layout": "horizontal-sprite-sheet",
+        "frameGutterPx": 2,
+        "frameSize": [
+          58,
+          70
+        ]
       }
     },
     {
@@ -1515,9 +1560,9 @@
       ],
       "alpha": 1.0,
       "layout": {
-        "left": 1587.0,
+        "left": 1585.0,
         "top": 780.5,
-        "width": 40.0,
+        "width": 44.0,
         "height": 74.0
       },
       "effects": [],
@@ -1536,7 +1581,12 @@
         ],
         "durationMs": 800,
         "loop": true,
-        "layout": "horizontal-sprite-sheet"
+        "layout": "horizontal-sprite-sheet",
+        "frameGutterPx": 2,
+        "frameSize": [
+          44,
+          74
+        ]
       }
     },
     {
@@ -1563,15 +1613,15 @@
       ],
       "alpha": 0.5,
       "layout": {
-        "left": 1543.0,
-        "top": 842.5,
-        "width": 58.0,
+        "left": 1541.0,
+        "top": 844.5,
+        "width": 62.0,
         "height": 72.0
       },
       "effects": [],
       "sourceAlignment": [
         43.0,
-        17.0
+        19.0
       ],
       "animation": {
         "sourceFrames": 4,
@@ -1584,7 +1634,12 @@
         ],
         "durationMs": 800,
         "loop": true,
-        "layout": "horizontal-sprite-sheet"
+        "layout": "horizontal-sprite-sheet",
+        "frameGutterPx": 2,
+        "frameSize": [
+          62,
+          72
+        ]
       }
     },
     {
@@ -1611,9 +1666,9 @@
       ],
       "alpha": 1.0,
       "layout": {
-        "left": 1527.0,
+        "left": 1525.0,
         "top": 768.5,
-        "width": 56.0,
+        "width": 60.0,
         "height": 86.0
       },
       "effects": [],
@@ -1632,7 +1687,12 @@
         ],
         "durationMs": 800,
         "loop": true,
-        "layout": "horizontal-sprite-sheet"
+        "layout": "horizontal-sprite-sheet",
+        "frameGutterPx": 2,
+        "frameSize": [
+          60,
+          86
+        ]
       }
     }
   ],
@@ -1642,8 +1702,8 @@
       1920,
       1080
     ],
-    "bytes": 63170,
-    "sha256": "a12d37fcfaf6fc62b2f4dfcd8352d6a9a1aacf4bd4179057e5467573fe45c02a",
+    "bytes": 60842,
+    "sha256": "e825b2bf86fc2706f97d344a7db0eb13f7e0f90d23dc8a66472420d7aa1ed341",
     "effectsApplied": false
   },
   "limitations": [
